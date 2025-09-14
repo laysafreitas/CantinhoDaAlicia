@@ -1,0 +1,14 @@
+.slime {
+  position: relative;
+  width: 100%;
+  height: 100vw;      
+  max-height: 500px;
+overflow: visible;
+}
+.slime svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  stroke: none;
+  shape-rendering: geometricPrecision;
+}
