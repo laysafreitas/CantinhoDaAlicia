@@ -1,5 +1,5 @@
 import './App.css'
-import './Styles/calda.css';
+import './Styles/Calda.css'
 import './Styles/titulo.css';
 import WhatsAppButton from './components/BotãoWhatsApp';
 import MenuButton from './components/botãoCardapio';

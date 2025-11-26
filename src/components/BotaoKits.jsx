@@ -1,4 +1,3 @@
-import React from "react";
 import { BiFoodMenu } from "react-icons/bi";
 import '../Styles/BotaoKit.css';
 
@@ -13,7 +12,7 @@ function KitButton() {
 
     return(
         <button onClick={handleClick} className="Kit">
-        <BiFoodMenu className="icon" /> kit festa
+        <BiFoodMenu className="icon" /> kites
         </button>
     )
 }

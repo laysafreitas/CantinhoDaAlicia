@@ -1,11 +1,10 @@
-import React from "react";
 import { BiSolidFoodMenu } from "react-icons/bi";
 import '../Styles/BotaoCardapio.css';
 
 
 function MenuButton() {
 
-    const pdfUrl = '';
+    const pdfUrl = './src/assets/menu.pdf';
 
     const handleClick = () =>{
         window.open(pdfUrl, '_blank');
