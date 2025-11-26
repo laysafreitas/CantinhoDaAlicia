@@ -4,7 +4,7 @@ import '../Styles/BotaoCardapio.css';
 
 function MenuButton() {
 
-    const pdfUrl = './src/assets/menu.pdf';
+    const pdfUrl = './public/menu.pdf';
 
     const handleClick = () =>{
         window.open(pdfUrl, '_blank');
