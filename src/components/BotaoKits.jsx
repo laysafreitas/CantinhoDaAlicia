@@ -4,7 +4,7 @@ import '../Styles/BotaoKit.css';
 
 function KitButton() {
 
-    const pdfUrl = './Menu_kits.pdf';
+    const pdfUrl = './Kits_menu.pdf';
 
     const handleClick = () =>{
         window.open(pdfUrl, '_blank');
